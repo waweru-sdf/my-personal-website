@@ -1,0 +1,12 @@
+@import "tailwindcss";
+#image{
+display: flex;
+flex-wrap: wrap;
+height: 30px;
+width: 30px;
+object-cover: rounded-full;
+border-color: blue;
+}
+#name{
+    color: red;
+}
