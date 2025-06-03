@@ -1,12 +1,29 @@
 @import "tailwindcss";
-#image{
+.image{
 display: flex;
 flex-wrap: wrap;
-height: 30px;
-width: 30px;
-object-cover: rounded-full;
+height: 300px;
+width: 300px;
 border-color: blue;
+border-image: round;
 }
+
 #name{
     color: red;
+    margin-bottom: 40px;
+}
+
+#h1{
+    color: brown;
+    text-size-adjust: 90px;
+}
+.links{
+    color: aqua;
+}
+#info{
+    color: blue;
+}
+.bio{
+    display: flex;
+    flex-wrap: wrap;
 }
